@@ -71,8 +71,6 @@ a{
     display: flex;
     flex-direction: column;
     align-content: stretch;
-    height: 100vh;
-    
 }
 
 .footer{
@@ -81,4 +79,8 @@ a{
     align-items: center;
     background-color: #1F2937;
     padding: 24px;
+}
+
+img{
+    width: 300px;
 }
