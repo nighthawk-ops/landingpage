@@ -1,4 +1,77 @@
 body{
     display: flex;
     flex-direction: column;
+    
+}
+
+/* header css */
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+
+}
+.Logo{
+    width: 24px;
+}
+
+/* hero css */
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #1F2937;
+
+}
+
+.herotitle{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}   
+
+/* section 2 */
+
+.title2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.infographic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.data{
+    width: 200px;
+}
+
+
+.body{
+    flex:1;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 24px;
 }
