@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding: 24px;
 }
 
 ul{
@@ -35,6 +36,7 @@ a{
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #1F2937;
+    flex: 1;
 
 }
 
@@ -58,19 +60,21 @@ a{
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 12px;
 
 }
 
 .data{
-    width: 200px;
+    max-width: 200px;
 }
 
 
 .pleasework{
     flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-    align-content: stretch;
+    height:auto !important; 
+    height:100%;
+    position: relative;
+
 }
 
 .footer{
@@ -82,5 +86,7 @@ a{
 }
 
 img{
-    width: 300px;
+    max-width: 150px;
+    padding: 0px;
+    margin: 0px;
 }
