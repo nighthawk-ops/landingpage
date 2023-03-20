@@ -1,6 +1,8 @@
 body{
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow:hidden;
     
 }
 
@@ -64,8 +66,9 @@ a{
 }
 
 
-.body{
-    flex:1;
+.pleasework{
+    flex: 1 1 auto;
+    border: 16px solid purple  ;
 }
 
 .footer{
